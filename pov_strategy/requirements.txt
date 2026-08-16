@@ -1,0 +1,4 @@
+requests
+matplotlib
+# optional, only needed for --source yfinance
+# yfinance
