@@ -1,0 +1,3 @@
+.venv-win/
+__pycache__/
+*.pyc
