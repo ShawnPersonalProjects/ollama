@@ -2,17 +2,17 @@
 
 Usage:
     # Classic flags (no mandate compilation):
-    python -m pov_strategy.main --qty 50000 --side buy
+    python -m algo_strategy_llm.main --qty 50000 --side buy
 
     # Natural-language mandate -> compiled strategy:
-    python -m pov_strategy.main --mandate "Sell 750k shares today, stay under
+    python -m algo_strategy_llm.main --mandate "Sell 750k shares today, stay under
         15% of volume, never below 99.50, ok to leave some unfilled"
 
     # Preset mandate gallery:
-    python -m pov_strategy.main --preset urgent
+    python -m algo_strategy_llm.main --preset urgent
 
     # Interactive: type mandates, get runs and reports in a loop:
-    python -m pov_strategy.main --repl
+    python -m algo_strategy_llm.main --repl
 """
 
 import argparse
